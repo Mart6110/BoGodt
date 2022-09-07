@@ -9,6 +9,7 @@ namespace BoGodt
 {
     internal abstract class Room : Appartment
     {
+        // Creating abstract metthods
         protected internal abstract void Floor();
         protected internal abstract void Door();
         protected internal abstract void Windows();

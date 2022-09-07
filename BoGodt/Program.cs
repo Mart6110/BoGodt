@@ -7,10 +7,11 @@ namespace BoGodt
     {
         static void Main(string[] args)
         {
+            // Creating a new object
             Appartment appartment = new Appartment();
-            appartment.NumberOfBedroom = 3;
+
+            appartment.NumberOfBedroom = 3; // Changing the number, sets the number of room
             appartment.AppartmentBuilder();
-            Console.WriteLine();
             appartment.GetAppartmentSpecifics();
         }
     }

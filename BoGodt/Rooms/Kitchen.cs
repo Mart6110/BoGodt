@@ -26,6 +26,7 @@ namespace BoGodt.Rooms
         {
             Console.WriteLine("Bagdør: Køkken har en bagdør");
         }
+        // override method to output the rooms interior
         protected internal override void GetRoomSpecifies()
         {
             Floor();

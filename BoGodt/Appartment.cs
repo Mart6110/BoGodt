@@ -10,15 +10,20 @@ namespace BoGodt
 {
     class Appartment
     {
+        // Creating a list for bedrooms
         List<Bedroom> bedrooms = new List<Bedroom>();
+
+        // Properties
         private bool frontDoor;
         private bool backDoor;
         private int numberOfBedroom = 0;
 
+        // Encapsulation
         public bool GetFrontDoor { get => frontDoor; }
         public bool GetBackDoor { get => backDoor; }
         public int NumberOfBedroom { get => numberOfBedroom; set => numberOfBedroom = value; }
 
+        // Method that creates the appartment
         public void AppartmentBuilder()
         {
             
@@ -53,6 +58,7 @@ namespace BoGodt
             }
         }
 
+        // Method that output the appartment rooms
         public void GetAppartmentSpecifics()
         {
             int bedroomCount = 1;
@@ -60,6 +66,7 @@ namespace BoGodt
             Console.WriteLine("Stue");
             Console.WriteLine("Badeværelse");
 
+            // Foreach that counts the number of bedrooms in the appartment
             foreach(Bedroom b in bedrooms)
             {
                 Console.WriteLine($"Soveværelse {bedroomCount}");

@@ -18,15 +18,9 @@ namespace BoGodt.Rooms
         }
         protected internal override void Windows()
         {
-            if (NumberOfBedroom > 3)
-            {
-                Console.WriteLine("Vundue: 3 fags vindue");
-            }
-            else
-            {
-                Console.WriteLine("Vundue: 2 fags vindue");
-            }
+            Console.WriteLine("Vindue: 1 fags vindue");
         }
+        // override method to output the rooms interior
         protected internal override void GetRoomSpecifies()
         {
             Floor();

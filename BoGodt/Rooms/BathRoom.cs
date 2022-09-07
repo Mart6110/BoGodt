@@ -20,7 +20,7 @@ namespace BoGodt.Rooms
         {
             Console.WriteLine("Vindue: Matteret 1 fags vindue");
         }
-
+        // override method to output the rooms interior
         protected internal override void GetRoomSpecifies()
         {
             Floor();
